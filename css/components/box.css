@@ -1,13 +1,11 @@
-#box {
+.box {
   display: inline-block;
   background-color: #3A4042;
-  /* width: 630px; */
-  /* height: 170px; */
+  padding: 45px 45px;
   box-shadow: 10px 10px 0 black;
   text-align: center;
-  padding: 45px 45px;
 }
 
-#box h1 {
+.box .title {
   margin-bottom: 30px;
 }
