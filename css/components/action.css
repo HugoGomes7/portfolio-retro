@@ -1,7 +1,7 @@
 .action {
   display: inline-flex;
   align-items: center;
-  color: white;
+  color: #F0D7A0;
   text-decoration: none;
   font-family: 'Fira Code', monospace;
   font-size: 20px;
@@ -10,7 +10,7 @@
 
 .action::before {
   content: '';
-  background-color: #003EE8;
+  background-color: #9090F9;
   width: 10px;
   height: 10px;
   margin-right: 10px;
