@@ -1,0 +1,15 @@
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.skills-wrapper .skills-tec {
+  width: 420px;
+}
+
+.skills-wrapper .skills-tec:nth-child(odd) {
+  margin-right: 250px;
+  margin-left: 5px;
+}

@@ -14,21 +14,24 @@
   </style>
 
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/components/button.css">
+  <link rel="stylesheet" href="css/components/home-header.css">
+  <link rel="stylesheet" href="css/components/home-background.css">
+  <link rel="stylesheet" href="css/components/home-box.css">
+  <link rel="stylesheet" href="css/components/main-title.css">
+  <link rel="stylesheet" href="css/components/main-button.css">
+  <link rel="stylesheet" href="css/components/main-subtitle.css">
   <link rel="stylesheet" href="css/components/logo.css">
-  <link rel="stylesheet" href="css/components/banner.css">
-  <link rel="stylesheet" href="css/components/title.css">
-  <link rel="stylesheet" href="css/components/subtitle.css">
-  <link rel="stylesheet" href="css/components/box.css">
   <link rel="stylesheet" href="css/components/action.css">
-  <link rel="stylesheet" href="css/components/header.css">
-
+  <link rel="stylesheet" href="css/components/section-content.css">
+  <link rel="stylesheet" href="css/components/skills-wrapper.css">
+  <link rel="stylesheet" href="css/components/skills-tec.css">
+  <link rel="stylesheet" href="css/components/progressbar.css">
   <title>Hugo D'Lucca Retrô</title>
 </head>
 
 <body>
 
-  <header class="header">
+  <header class="home-header">
     <img src="img/emoji-ico.png" alt="logo site">
     <h1 class="logo">Portfólio Retrô</h1>
     <nav>
@@ -36,18 +39,96 @@
       <a class="action" href="#">Projects</a>
       <a class="action" href="#">About</a>
       <a class="action" href="#">Contacts</a>
-      <a class="button" href="#">Download CV</a>
+      <a class="main-button" href="#">Download CV</a>
     </nav>
   </header>
 
-  <section class="banner">
-    <div class="box">
-      <h2 class="title">Hugo D'Lucca</h2>
-      <h3 class="subtitle">Frontend Developer</h3>
+  <section class="home-background">
+    <div class="main-wrapper">
+      <div class="home-box">
+        <h2 class="main-title">Hugo D'Lucca</h2>
+        <h3 class="main-subtitle">Frontend Developer</h3>
+      </div>
+      <div class="two-buttons">
+        <a class="main-button" href="#">Download CV</a>
+        <a class="main-button" href="#">Contacts</a>
+      </div>
     </div>
+  </section>
 
-    <a class="button" href="#">Download CV</a>
-    <a class="button" href="#">Contacts</a>
+  <section class="section-content">
+    <h2 class="main-title -second">Skills</h2> <!-- variação da classe -->
+    <div class="skills-wrapper">
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_html5.png" alt="">
+        <div class="position">
+          <h3 class="title">HTML</h3>
+          <progress class="progressbar" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_nodejs.png" alt="">
+        <div class="position">
+          <h3 class="title">NodeJS</h3>
+          <progress class="progressbar" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_css3.png" alt="">
+        <div class="position">
+          <h3 class="title">CSS</h3>
+          <progress class="progressbar" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_ts.png" alt="">
+        <div class="position">
+          <h3 class="title">TypeScript</h3>
+          <progress class="progressbar" max="100" value="70">70%</progress>
+        </div>
+      </article>
+
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_js.png" alt="">
+        <div class="position">
+          <h3 class="title">JavaScript</h3>
+          <progress class="progressbar" max="100" value="70">70%</progress>
+        </div>
+      </article>
+
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_bootstrap.png" alt="">
+        <div class="position">
+          <h3 class="title">Bootstrap</h3>
+          <progress class="progressbar" max="100" value="70">70%</progress>
+        </div>
+      </article>
+
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_react.png" alt="">
+        <div class="position">
+          <h3 class="title">React</h3>
+          <progress class="progressbar" max="100" value="70">70%</progress>
+        </div>
+      </article>
+
+      <article class="skills-tec">
+        <img class="icon" src="img/ico_restapi.png" alt="">
+        <div class="position">
+          <h3 class="title">Rest API</h3>
+          <progress class="progressbar" max="100" value="70">70%</progress>
+        </div>
+      </article>
+    </div>
   </section>
 
 </body>

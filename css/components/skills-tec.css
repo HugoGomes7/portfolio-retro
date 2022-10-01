@@ -1,0 +1,24 @@
+.skills-tec {
+  display: flex;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: white;
+  padding: 40px;
+}
+
+.skills-tec .icon {
+  margin-right: 25px;
+  width: 95px;
+}
+
+.skills-tec .position {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.skills-tec .title {
+  margin-bottom: 10px;
+}

@@ -1,4 +1,4 @@
-.box {
+.home-box {
   display: inline-block;
   background-color: #773800;
   padding: 45px 45px;
@@ -6,6 +6,6 @@
   text-align: center;
 }
 
-.box .title {
+.home-box .title {
   margin-bottom: 30px;
 }

@@ -1,4 +1,4 @@
-.button {
+.main-button {
   display: inline-block;
   font-family: 'Fira Code', monospace;
   font-size: 20px;
@@ -11,6 +11,6 @@
   text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
   transform: scale(1.09);
 }

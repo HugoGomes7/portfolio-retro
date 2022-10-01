@@ -1,0 +1,13 @@
+.section-content {
+  display: flex;
+  flex-direction: column;
+  background: url(../../img/background-2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 900px;
+  border-bottom: 10px solid black;
+}
+
+.section-content .main-title {
+  margin-top: 50px;
+}

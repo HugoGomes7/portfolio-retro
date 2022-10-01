@@ -1,0 +1,18 @@
+.progressbar {
+  box-sizing: border-box;
+  height: 35px;
+  width: 315px;
+  border: 5px solid black
+}
+
+.progressbar::-webkit-progress-bar {
+  background: white;
+}
+
+.progressbar::-moz-progress-bar {
+  background: white;
+}
+
+.progressbar::-webkit-progress-value {
+  background: #039002;
+}

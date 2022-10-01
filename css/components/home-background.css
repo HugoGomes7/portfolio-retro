@@ -1,0 +1,22 @@
+.home-background {
+  background-image: url(../../img/photo-banner1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 830px;
+  border-bottom: 10px solid black;
+
+  padding-top: 120px;
+  padding-left: 120px;
+}
+
+.home-background .main-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+
+.home-background .two-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
