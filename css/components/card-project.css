@@ -1,0 +1,30 @@
+.card-project {
+  display: flex;
+  background-color: #773800;
+  width: 320px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px black;
+  transition: 200ms ease-in-out;
+}
+
+.card-project:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+
+.card-project .icon {
+  width: 200px;
+  height: 200px;
+}
+
+.card-project.-center {
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: #B23021;
+}
+
+.card-project.-left {
+  background-color: #039002;
+}

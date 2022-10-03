@@ -11,3 +11,8 @@
 .section-content .main-title {
   margin-top: 50px;
 }
+
+.section-content.-sectionProjects {
+  background-image: url(../../img/background-3.png);
+  border-bottom: 10px solid black;
+}
