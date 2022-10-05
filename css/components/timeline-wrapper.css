@@ -35,7 +35,14 @@
 }
 
 .timeline-wrapper .items {
+  width: 80%;
+  overflow: hidden;
+}
+
+.timeline-wrapper .elements {
   display: flex;
   justify-content: space-between;
-  width: 80%
+
+  /* for test the scroll of elements: */
+  /* transform: translateX(50px) */
 }
