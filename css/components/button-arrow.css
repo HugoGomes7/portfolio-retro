@@ -4,15 +4,10 @@
   background-color: #039002;
   box-shadow: 5px 5px 0 black;
   cursor: pointer;
-  transition: 200ms ease-in-out;
 }
 
 .button-arrow .content {
   display: none;
-}
-
-.button-arrow:hover {
-  transform: scale(1.09);
 }
 
 .button-arrow.-left::before {
@@ -25,6 +20,7 @@
   border-right: 30px solid white;
   transform: translateX(-10px);
 }
+
 
 .button-arrow.-right::after {
   content: '';
