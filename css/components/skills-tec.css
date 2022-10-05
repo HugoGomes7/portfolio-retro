@@ -22,3 +22,22 @@
 .skills-tec .title {
   margin-bottom: 10px;
 }
+
+.progressbar {
+  box-sizing: border-box;
+  height: 35px;
+  width: 315px;
+  border: 5px solid black
+}
+
+.skills-tec .progressbar::-webkit-progress-bar {
+  background: white;
+}
+
+.skills-tec .progressbar::-moz-progress-bar {
+  background: white;
+}
+
+.skills-tec .progressbar::-webkit-progress-value {
+  background: #039002;
+}

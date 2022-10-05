@@ -1,0 +1,38 @@
+.button-arrow {
+  width: 60px;
+  height: 60px;
+  background-color: #039002;
+  box-shadow: 5px 5px 0 black;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+.button-arrow .content {
+  display: none;
+}
+
+.button-arrow:hover {
+  transform: scale(1.09);
+}
+
+.button-arrow.-left::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 20px solid transparent;
+  border-right: 30px solid white;
+  transform: translateX(-10px);
+}
+
+.button-arrow.-right::after {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border: 20px solid transparent;
+  border-left: 30px solid white;
+  transform: translateX(10px);
+}

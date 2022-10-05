@@ -1,0 +1,41 @@
+.section-content.-sectionAbout .timeline-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timeline-wrapper {
+  position: relative;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.timeline-wrapper .button-arrow {
+  transform: translateY(50%);
+}
+
+.timeline-wrapper::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 33px;
+  height: 5px;
+  width: 80%;
+  background-color: white;
+}
+
+.timeline-wrapper::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 33px;
+  border: 2.3px dashed white;
+  width: 90%;
+}
+
+.timeline-wrapper .items {
+  display: flex;
+  justify-content: space-between;
+  width: 80%
+}

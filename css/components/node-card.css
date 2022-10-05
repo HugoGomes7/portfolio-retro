@@ -1,0 +1,34 @@
+.node-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.node-card::before {
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  width: 40px;
+  height: 0;
+  border: 2.3px dashed white;
+  transform: rotate(90deg) translateX(135%);
+}
+
+.node-card .year {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.node-card .logoCard {
+  display: flex;
+  align-items: center;
+  height: 160px;
+  border: 5px solid black;
+  /* background-color: #F0D7A0; */
+  background-color: white;
+  padding: 15px;
+}
