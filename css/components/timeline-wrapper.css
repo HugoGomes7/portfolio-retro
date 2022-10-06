@@ -42,7 +42,4 @@
 .timeline-wrapper .elements {
   display: flex;
   justify-content: space-between;
-
-  /* for test the scroll of elements: */
-  /* transform: translateX(50px) */
 }
