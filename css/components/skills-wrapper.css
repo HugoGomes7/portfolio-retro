@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   max-width: 1200px;
   margin: auto;
+  margin-top: 40px;
 }
 
 .skills-wrapper .skills-tec {
