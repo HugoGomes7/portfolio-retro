@@ -1,0 +1,11 @@
+.main-footer {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  padding: 15px;
+}
+
+.main-footer .imgCenter {
+  margin-right: 40px;
+  margin-left: 40px;
+}
