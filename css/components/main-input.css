@@ -1,0 +1,15 @@
+.main-input {
+  display: flex;
+  box-sizing: border-box;
+  border: 5px solid black;
+  width: 99%;
+  height: 60px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-left: 0.5%;
+  margin-right: 0.5px;
+}
+
+.main-input.-message {
+  height: 400px;
+}

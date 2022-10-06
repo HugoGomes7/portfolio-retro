@@ -14,3 +14,17 @@
 .home-button:hover {
   transform: scale(1.09);
 }
+
+.home-button.-btnSubmit {
+  box-shadow: none;
+  cursor: pointer;
+  margin: 0;
+  width: 99%;
+  height: 60px;
+  border: 5px solid black;
+  margin-left: 10px;
+}
+
+.home-button.-btnSubmit:hover {
+  transform: none;
+}

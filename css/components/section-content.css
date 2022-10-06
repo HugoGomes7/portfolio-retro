@@ -18,5 +18,11 @@
 
 .section-content.-sectionAbout {
   background-image: url(../../img/background-4.png);
-  padding-top: 100px;
+  padding-top: 70px;
+}
+
+.section-content.-sectionContacts {
+  background-image: url(../../img/background-5.png);
+  background-color: #2a1400;
+  padding-top: 70px;
 }
