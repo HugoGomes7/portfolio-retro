@@ -1,0 +1,414 @@
+@media (max-width: 1447px) {
+  .logo {
+    display: none;
+  }
+
+  .section-content.-sectionProjects {
+    height: 900px;
+  }
+
+  .card-project.-center,
+  .card-project.-left,
+  .card-project.-right {
+    height: 250px;
+    width: 250px;
+  }
+
+  .cards-wrapper {
+    margin-top: 25%;
+  }
+
+  .node-card .logoCard {
+    height: 140px;
+    width: 150px;
+    padding: 5px;
+    border: 4px solid black;
+    margin-right: 25px;
+  }
+
+  .logosizeUfersa {
+    width: 130px;
+    height: 35px;
+  }
+
+  .logosizeCovid {
+    width: 120px;
+    height: 120px;
+  }
+
+  .logosizeStudy {
+    width: 130px;
+    height: 100px;
+  }
+
+  .logosizeBrisanet {
+    width: 120px;
+    height: 135px;
+  }
+
+  .logosizeJuniqe {
+    width: 130px;
+    height: 50px;
+  }
+
+  .logosizeActual {
+    width: 105px;
+    height: 105px;
+  }
+
+}
+
+@media (max-width: 1320px) {
+  .home-background {
+    height: 780px;
+  }
+
+  .section-content {
+    height: 1050px;
+  }
+
+  .card-project.-left .icon,
+  .card-project.-center .icon,
+  .card-project.-right .icon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .section-content.-sectionProjects {
+    height: 700px;
+  }
+
+  p.main-description {
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1293px) {
+
+  .card-project.-center,
+  .card-project.-left,
+  .card-project.-right {
+    height: 190px;
+    width: 190px;
+  }
+
+  .card-project.-left .icon,
+  .card-project.-center .icon,
+  .card-project.-right .icon {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 1179px) {
+  .section-content .skills-wrapper {
+    margin-top: 30px;
+  }
+
+  .section-content .skills-wrapper .skills-tec {
+    width: 330px;
+  }
+}
+
+@media (max-width: 1095px) {
+  figure.card-project.-center {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+
+  progress.progressbar {
+    width: 210px;
+    height: 30px;
+  }
+
+  h3.title {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .section-content .skills-wrapper {
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+  article.skills-tec {
+    width: 290px;
+    height: 170px
+  }
+
+  .section-content .skills-wrapper .skills-tec:nth-child(odd) {
+    margin-right: 120px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 951px) {
+  h2.main-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  h3.main-subtitle {
+    font-size: 25px;
+  }
+
+  div.home-box {
+    padding: 35px;
+    width: 600px;
+  }
+
+  div.two-buttons {
+    width: 600px;
+  }
+
+  section.home-background {
+    padding-top: 160px;
+    padding-left: 70px;
+  }
+
+  div.main-wrapper {
+    width: 600px;
+  }
+}
+
+@media (max-width: 852px) {
+
+  a.home-button.-header {
+    display: none;
+  }
+
+  h2.main-title {
+    font-size: 28px;
+  }
+
+  h3.main-subtitle {
+    font-size: 21px;
+  }
+
+  div.home-box {
+    width: 500px;
+  }
+
+  div.two-buttons {
+    width: 500px;
+  }
+
+  header.home-header {
+    padding: 5px 10px;
+  }
+
+  .section-content .skills-wrapper .skills-tec:nth-child(odd) {
+    margin-right: 30px;
+  }
+
+  div.skills-wrapper {
+    margin-right: 50px;
+  }
+
+  figure.card-project.-center {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 780px) {
+
+  section.home-background {
+    padding-left: 20px;
+  }
+
+  div.home-box {
+    width: 400px;
+  }
+
+  div.two-buttons {
+    width: 400px;
+  }
+
+  div.skills-wrapper {
+    flex-direction: column;
+  }
+
+  .section-content .skills-wrapper {
+    margin-right: 25%;
+  }
+
+  article.skills-tec {
+    height: 120px;
+  }
+
+
+  /* title skills and projects */
+  h2.main-title.-second {
+    margin-top: 35px;
+  }
+
+
+  /* section projects  */
+  .section-content.-sectionProjects {
+    height: 900px;
+  }
+
+  figure.card-project.-center {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  div.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  p.main-description {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  h2.main-title {
+    font-size: 25px;
+  }
+
+  h3.main-subtitle {
+    font-size: 18px;
+  }
+
+  div.timeline-wrapper {
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  button.button-arrow.-left,
+  button.button-arrow.-right {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 670px) {
+
+  div.home-box,
+  div.two-buttons {
+    width: 400px;
+  }
+
+  section.home-background .main-wrapper {
+    width: 400px;
+  }
+
+  button.button-arrow.-right,
+  button.button-arrow.-left {
+    width: 35px;
+    height: 35px;
+  }
+
+  button.button-arrow.-right::after {
+    border: 10px solid transparent;
+    border-left: 15px solid white;
+  }
+
+  button.button-arrow.-left::before {
+    border: 10px solid transparent;
+    border-right: 15px solid white;
+    transform: translateX(-5px);
+  }
+
+}
+
+@media (max-width: 621px) {
+  header.home-header img {
+    display: none;
+  }
+
+  header.home-header {
+    padding: 20px 20px;
+    justify-content: center;
+  }
+
+  .home-header .action::before {
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+  }
+
+  .home-header .action {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  div.home-box,
+  div.two-buttons,
+  div.main-wrapper {
+    width: 300px;
+  }
+
+  h2.main-title {
+    font-size: 19px;
+  }
+
+  h3.main-subtitle {
+    font-size: 12px;
+  }
+
+  a.home-button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+
+  .section-content .skills-tec .icon {
+    margin-right: 10px;
+    width: 50px;
+  }
+
+  progress.progressbar {
+    width: 150px;
+    height: 25px;
+    border: 3px solid black;
+  }
+
+  h3.title {
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  p.main-description {
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 576px) {
+  a.action::before {
+    display: none;
+  }
+
+  section.home-background div.main-wrapper {
+    width: 300px;
+  }
+
+  header.home-header a.action {
+    text-decoration: underline;
+    text-decoration-color: #9090F9;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  p.main-description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .section-content .skills-wrapper .skills-tec:nth-child(odd) {
+    margin-right: 0px;
+  }
+}

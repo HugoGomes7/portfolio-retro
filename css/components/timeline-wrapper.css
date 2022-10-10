@@ -1,6 +1,6 @@
 .section-content.-sectionAbout .timeline-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
 }

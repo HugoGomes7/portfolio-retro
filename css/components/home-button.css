@@ -1,4 +1,5 @@
-.home-button {
+.home-button,
+.home-button.-header {
   display: inline-block;
   font-family: 'Fira Code', monospace;
   font-size: 20px;
@@ -19,7 +20,6 @@
   box-shadow: none;
   cursor: pointer;
   margin: 0;
-  width: 99%;
   height: 60px;
   border: 5px solid black;
   margin-left: 10px;
