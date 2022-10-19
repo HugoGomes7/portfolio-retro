@@ -1,5 +1,4 @@
 # My Portfolio
-![GitHub](https://img.shields.io/github/license/HugoGomes7/dev-agency)
 
 # About the project
 
