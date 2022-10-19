@@ -1,10 +1,11 @@
 # My Portfolio
+![Github](https://img.shields.io/github/license/hugogomes7/portfolio-retro)
 
 # About the project
 
 https://portfolio-retro-hugo.netlify.app
 
-Personal portfolio developed with Html, CSS and Javascript. Use as a reference a layout that I created in Figma and made use of the RSCSS writing methodology in the construction of the CSS.
+Personal portfolio in format retro developed with Html, CSS and Javascript, resposive using Media Queries. Use as a reference a layout that I created in Figma and made use of the RSCSS writing methodology in the construction of the CSS.
 
 Figma: https://www.figma.com/file/SUCw2PV3daJNewu6PLMbpR/Portf%C3%B3lio-CSS-e-HTML-1
 
