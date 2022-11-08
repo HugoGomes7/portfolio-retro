@@ -10,8 +10,9 @@ Personal portfolio in format retro developed with Html, CSS and Javascript, resp
 Figma: https://www.figma.com/file/SUCw2PV3daJNewu6PLMbpR/Portf%C3%B3lio-CSS-e-HTML-1
 
 
-## Layout web 
-I'll add images
+## Layout
+https://user-images.githubusercontent.com/65207104/198274528-6d4880cc-de40-4142-8ced-e728807cdfa3.mp4
+
 
 # Technologies used
 ## Frontend
